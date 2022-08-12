@@ -1,0 +1,40 @@
+@media screen and (max-width: 746px){
+    .content{
+      margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 950px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+        gap: 118px;
+    }
+    .hero-text{
+        margin-top: 0;
+      }
+  
+  
+    .hero-img {
+        width: 380px;
+        height: 315px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1155px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .hero-img {
+        width: 450px;
+        height: 331px;
+        max-width: 500px;
+        margin-right: 50px;
+    }
+    .content {
+        margin: 0;
+    }
+}
